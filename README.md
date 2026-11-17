@@ -3,8 +3,8 @@
 **출시 7일 차 지표로 90일 매출을 예측하고, 비슷한 게임과 비교한 위험 등급과 "무엇부터 고칠지" 우선순위를 보여 주는 대시보드입니다.**
 제3회 DArt-B × Parrot 연합 데이터톤(중앙대 DArt-B × 서강대 Parrot) 8조의 결과물입니다.
 
-**바로 보기:** https://jinuuuuuuuuuuu.github.io/d7-growth-board/
-**데모 게임:** [REV4_002417 (위험 E)](https://jinuuuuuuuuuuu.github.io/d7-growth-board/#/game/REV4_002417) · [REV4_008978 (효율 시연용)](https://jinuuuuuuuuuuu.github.io/d7-growth-board/#/game/REV4_008978)
+**바로 보기:** https://jinuuuuuuuuuuu.github.io/Game-Revenue-Growth/
+**데모 게임:** [REV4_002417 (위험 E)](https://jinuuuuuuuuuuu.github.io/Game-Revenue-Growth/#/game/REV4_002417) · [REV4_008978 (효율 시연용)](https://jinuuuuuuuuuuu.github.io/Game-Revenue-Growth/#/game/REV4_008978)
 
 | 진단 | 게임 상세 |
 |---|---|
