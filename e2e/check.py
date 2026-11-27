@@ -1,9 +1,9 @@
 """전체 흐름 브라우저 시험. 사용: python e2e/check.py [기본 주소]"""
-import json, re, subprocess, sys, os
+import json, re, subprocess, sys, os, tempfile
 from playwright.sync_api import sync_playwright
 sys.stdout.reconfigure(encoding='utf-8')
 BASE = (sys.argv[1] if len(sys.argv) > 1 else 'http://localhost:4173/').rstrip('/') + '/#'
-SH = os.environ.get('SHOTS', r'C:\Users\kevin\AppData\Local\Temp\claude\42ff6d1bfd5615cb\012eee5f-c7d1-4e35-a9d6-38d204b468d4\scratchpad\shots\app_')
+SH = os.environ.get('SHOTS', os.path.join(tempfile.gettempdir(), 'app_'))
 HERE = os.path.dirname(os.path.abspath(__file__)); DATA = os.path.join(HERE, '..', 'public', 'data')
 J = lambda *p: json.load(open(os.path.join(DATA, *p), encoding='utf-8'))
 IDX = J('index.json'); META = J('meta.json')
